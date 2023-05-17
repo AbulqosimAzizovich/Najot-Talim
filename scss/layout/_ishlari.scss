@@ -1,0 +1,95 @@
+#ishlari {
+    .wrapper {
+        &__h2 {
+            font-family: "lato-heavy";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 40px;
+            color: #0f1826;
+        }
+
+        &__p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #607987;
+            margin-bottom: 48px;
+        }
+
+        &__grid{
+            display: grid;
+            justify-items: stretch;
+            align-items: stretch;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+
+            &--item{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 31px;
+                margin-bottom: 31px;
+                width: 160px;
+                height: 100px;
+                filter: grayscale(100%);
+                transition: all 1s ease;
+                &:hover{
+                    transition: all 1s ease;
+                    filter: brightness(100%);
+                }
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    #ishlari {
+        .wrapper {
+            &__h2 {
+                font-family: "lato-heavy";
+                font-style: normal;
+                font-weight: 800;
+                font-size: 32px;
+                line-height: 40px;
+                color: #ffffff;
+            }
+    
+            &__p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #607987;
+                margin-bottom: 48px;
+            }
+    
+            &__grid{
+                display: grid;
+                justify-items: stretch;
+                align-items: stretch;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+    
+    
+                &--item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 31px;
+                    margin-bottom: 31px;
+                    width: 160px;
+                    height: 100px;
+                    filter: grayscale(100%);
+                    transition: all 1s ease;
+                    &:hover{
+                        transition: all 1s ease;
+                        filter: brightness(100%);
+                    }
+                }
+            }
+        }
+    }
+}

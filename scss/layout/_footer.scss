@@ -1,0 +1,183 @@
+footer {
+  width: 100%;
+  height: auto;
+  .wrapper {
+    display: flex;
+    gap: 47.03px;
+    &__left {
+      &--p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: #607987;
+        margin-bottom: -80px;
+        padding-top: 22px;
+        width: 340px;
+        height: 280px;
+      }
+    }
+
+    &__right {
+      &--sss {
+        display: flex;
+        gap: 198px;
+        margin-bottom: 48px;
+        &-card1 {
+          h2 {
+            font-family: "lato-heavy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            text-transform: capitalize;
+            color: #0f1826;
+            margin-bottom: 34px;
+          }
+          p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: -0.28px;
+            color: #607987;
+            &:hover {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      &--sss1 {
+        display: flex;
+        align-items: center;
+        gap: 76px;
+        margin-bottom: 50px;
+        border-top: 1px solid rgba(129, 117, 92, 0.3);
+        padding-top: 35px;
+        &-card1 {
+          width: 216px;
+          height: 100px;
+          h2 {
+            font-family: "lato-heavy";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            text-transform: capitalize;
+            color: #0f1826;
+            margin-bottom: 34px;
+          }
+          p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: -0.28px;
+            color: #607987;
+            &:hover {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    width: 100%;
+    height: auto;
+    .wrapper {
+      display: flex;
+      gap: 47.03px;
+      &__left {
+        &--p {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 22px;
+          color: #ffffff;
+          margin-bottom: -80px;
+          padding-top: 22px;
+          width: 340px;
+          height: 280px;
+        }
+      }
+
+      &__right {
+        &--sss {
+          display: flex;
+          gap: 198px;
+          margin-bottom: 48px;
+          &-card1 {
+            h2 {
+              font-family: "lato-heavy";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 20px;
+              letter-spacing: -0.32px;
+              text-transform: capitalize;
+              color: #ffffff;
+              margin-bottom: 34px;
+            }
+            p {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 32px;
+              letter-spacing: -0.28px;
+              color: #ffffff;
+              &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+
+        &--sss1 {
+          display: flex;
+          align-items: center;
+          gap: 76px;
+          margin-bottom: 50px;
+          border-top: 1px solid rgba(129, 117, 92, 0.3);
+          padding-top: 35px;
+          &-card1 {
+            width: 216px;
+            height: 100px;
+            h2 {
+              font-family: "lato-heavy";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 20px;
+              letter-spacing: -0.32px;
+              text-transform: capitalize;
+              color: #ffffff;
+              margin-bottom: 34px;
+            }
+            p {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 32px;
+              letter-spacing: -0.28px;
+              color: #dbdbdb;
+              &:hover {
+                cursor: pointer;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
