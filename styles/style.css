@@ -337,16 +337,28 @@ template {
   font-family: lato-semibold;
 }
 
+@media only screen and (max-width: 834px) {
+  *::after,
+  *::before,
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: lato-semibold;
+    overflow-x: hidden;
+  }
+}
 @media (prefers-color-scheme: dark) {
   body {
-    background: #09111B;
+    background: #09111b;
     color: #fff;
   }
 }
 @media (prefers-color-scheme: light) {
   body {
     background: #fff;
-    color: #09111B;
+    color: #09111b;
   }
 }
 .container {
